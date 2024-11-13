@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang = "es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Cuatro Cajas dentro de un Contenedor</title>
+    <style>
+    
+        
+    .contenedor {
+      width: 90%;
+      padding: 20px;
+      border: 2px solid gray;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 20px;
+    }
+
+    .caja {
+      width: 90%;
+      height: 150px;
+      padding: 10px;
+      margin: 10px;
+      border: 1px solid #ccc;
+      text-align: center;
+      line-height: 150px;
+    }
+
+    .caja1 {
+      background-color: #FFA07A;
+    }
+
+    .caja2 {
+      background-color: #90EE90;
+    }
+
+    .caja3 {
+      background-color: #ADD8E6;
+    }
+
+    .caja4 {
+      background-color: #FFD700;
+    }
+  </style>
+</head>
+<body>
+  <div class="contenedor">
+    <div class=" caja caja1">Caja 1</div>
+    <div class="caja caja2">Caja 2</div>
+    <div class="caja caja3">Caja 3</div>
+    <div class="caja caja4">Caja 4</div>
+  </div>
+</body>
+</html>
